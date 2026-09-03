@@ -1,0 +1,17 @@
+{
+  "name": "employee-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Employee Attendance Management System - Inner Eye Consultancy Services LLP assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
